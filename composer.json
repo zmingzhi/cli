@@ -1,0 +1,21 @@
+{
+  "name": "zmingzhi/cli",
+  "description": "命令行控制指令",
+  "type": "project",
+  "keywords": [
+    "命令行"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "zongphp\\cli\\": "src"
+    }
+  }
+}
